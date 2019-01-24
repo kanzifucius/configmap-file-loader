@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+    labels:
+        promethuesType: rulefile
+    name: configmap-promlabeled
+data:
+    data-1.rules: |-
+      data
+    data-1: |-
+      data3
